@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+
+body
+{
+	font-family: 'Red Hat Display', sans-serif;
+	margin: 0vw;
+	background-color: #000000;
+}
+
+.web-top-bar
+{
+	transition: 0.3s;
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(255, 56, 56,1.0);
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.473);	
+	height: 15vh;
+}
+
+.web-top-bar-title
+{
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;	
+	margin-left: 3vw;
+	margin-top: 1.9vh;
+	color: #ffffff;
+}
+
+.web-top-bar-desc
+{
+	transition: 0.3S ease-in-out;
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 3vw;
+	color: #ffffff;
+	font-size: 1vw;
+}
+
+.web-user-img
+{
+	transition: 0.3s;
+	margin-right: 2.5vw;
+	margin-top: 5.4vh;
+	float: right;
+	width: 2.5vw;
+	
+}
+
+.web-cart-img
+{
+	transition: 0.3s;
+	float: right;
+	width: 2.2vw;
+	margin-top: 7vh;
+	margin-right: 2vw;
+}
+
+.web-mensseger-img
+{
+	transition: 0.3s;
+	float: right;
+	width: 1.7vw;
+	margin-top: 7.3vh;
+	margin-right: 2vw;
+}
+
+.web-featured-bar
+{
+	background: #3d3d3d;
+	height: 10vh;
+	box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.473);	
+}
+
+.web-featured-bar-desc
+{
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding-left: 11.5vw;
+	padding-top: 1.5vh;
+	font-size: 0.9vw;
+}
+
+.web-main-image
+{
+	border: 0px;
+	margin-bottom: 0px;
+	height: 74.3vh;
+	width: 70vw;
+	margin-left: 15vw;
+}
